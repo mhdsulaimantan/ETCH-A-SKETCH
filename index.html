@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
     <title>ETCH-A-SKETCH</title>
 </head>
 <body>
-    
+    <div class="header">ETCH-A-SKETCH</div>
+    <div class="description">
+        <p>This is a simple game that allow you to scratch a card and draw</p>
+    </div>
+    <div id="colors-section">
+        <button id="black-color-btn">Black</button>
+        <div id="pick-color">
+            <label>Pick a Color</label>
+            <input id="selected-color" type="color">
+        </div>
+        <button id="random-color-btn">Random</button>
+        <button id="erase-btn">Erase</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+    <div class="range-section">
+        <p>The Number of squares:</p>
+        <input id="squares-range" type="range" min="1" max="100" step="1" value="50">
+        <p id="squares-para">
+            <span class="square-num">50</span>
+             X 
+            <span class="square-num">50</span>
+            </p>
+    </div>
+    <div id="container"></div>
+    <footer>
+        <p>Copyright © mst12n6.</p>
+    </footer>
 </body>
 </html>
