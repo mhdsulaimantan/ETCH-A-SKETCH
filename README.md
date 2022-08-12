@@ -2,4 +2,4 @@
 This project is to practice the DOM manipulation and Events in javaScript by creating a pretty neat toy for a portfolio. it is like a browser version of something between a sketchpad and an Etch-A-Sketch.
 
 ### Live Preview:
-The project was hosted online via heroku: [ETCH-A-SKETCH](https://ethe-a-sketch.herokuapp.com/)
+The project was hosted: [Here](https://mhdsulaimantan.gitgub.io/ETCH-A-SKETCH/)
